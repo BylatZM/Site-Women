@@ -1,0 +1,13 @@
+#header,
+.module caption,
+#changelist-filter h2 {
+  background: #3f4137;
+}
+
+div.breadcrumbs {
+  background: #6a6e5d;
+}
+
+.theme-toggle svg.theme-icon-when-auto {
+  color: #3f4137;
+}
