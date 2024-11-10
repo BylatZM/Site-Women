@@ -16,9 +16,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 Env.read_env(path.join(BASE_DIR, '.env'))
 
-SECRET_KEY = env.get()
+SECRET_KEY = env('SECRET_KEY')
 
-DEBUG = True
+DEBUG = env('DEBUG')
 
 ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
 INTERNAL_IPS = [
